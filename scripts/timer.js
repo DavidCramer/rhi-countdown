@@ -23,9 +23,9 @@ const TimerApp = {
 		const minutes = Math.floor( difference % 36e5 / 60000 );
 		const seconds = Math.floor( difference % 60000 / 1000 );
 
-		this.clockH.innerHTML = `${ 10 > hours ? 0 : '' }${ hours }`;
-		this.clockM.innerHTML = `${ 10 > minutes ? 0 : '' }${ minutes }`;
-		this.clockS.innerHTML = `${ 10 > seconds ? 0 : '' }${ seconds }`;
+		this.clockH.innerHTML = `${ 10 > hours ? '0' : '' }${ hours }`;
+		this.clockM.innerHTML = `${ 10 > minutes ? '0' : '' }${ minutes }`;
+		this.clockS.innerHTML = `${ 10 > seconds ? '0' : '' }${ seconds }`;
 
 	}
 
