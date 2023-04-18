@@ -3,7 +3,7 @@
   "name": "Rhi Countdown",
   "description": "Rhianne visitation countdown timer.",
   "start_url": "/rhi-countdown/",
-  "background_color": "#950505",
+  "background_color": "#000",
   "display": "fullscreen",
   "scope": "/rhi-countdown/",
   "theme_color": "#950505",
