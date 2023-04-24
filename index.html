@@ -20,20 +20,15 @@
 <div id="app" style="
     position: absolute;
     top: 45%;
-    left: 45%;
+    width: 100%;
+    text-align: center;
 ">
-	<div id="title" style="color: #c40505;">Next Visit in</div>
+	<div id="title" style="color: #c40505;"></div>
 	<div style="font-size: 35px;color: #c40505;">
-		<span id="hours" style="color: #c40505;"></span>:<span id="minutes" style="color: #c40505;"></span>:<span id="seconds" style="color: #c40505;"></span>
+		<span id="days" style="color: #c40505;"></span>:<span id="hours" style="color: #c40505;"></span>:<span id="minutes" style="color: #c40505;"></span>:<span id="seconds" style="color: #c40505;"></span>
 	</div>
 </div>
-<script>
-	window.addEventListener( 'load', () => {
-		if ( 'serviceWorker' in navigator ) {
-			navigator.serviceWorker.register( 'service-worker.js' );
-		}
-	} );
-</script>
-<script language="JavaScript" src="scripts/timer.js"></script>
+
+<script src="scripts/timer.js"></script>
 </body>
 </html>
